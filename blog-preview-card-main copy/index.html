@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+  <link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+>
+  <link rel="stylesheet" href="styles.css">
+
+</head >
+
+<body>
+  <main class="container min-vh-100 d-flex align-items-center">
+
+    <div class="row justify-content-center w-100">
+
+      <div class="col-12 col-md-6 col-lg-4">
+
+        <!-- Bootstrap Card -->
+        <div class="card p-4 rounded-4 border-dark">
+
+          <!-- Article Image -->
+          <img
+            src="illustration-article.svg"
+            class="card-img-top rounded-3"
+            alt="Blog article illustration"
+          >
+
+          <!-- Learning Label -->
+          <span class="badge text-bg-warning align-self-start mt-4 mb-3">
+            Learning
+          </span>
+
+          <!-- Published Date -->
+          <p class="mb-2">
+            Published 21 Dec 2023
+          </p>
+
+          <!-- Title -->
+          <h1 class="card-title fs-4 fw-bold mb-3">
+            HTML & CSS foundations
+          </h1>
+
+          <!-- Description -->
+          <p class="card-text text-secondary mb-4">
+            These languages are the backbone of every website,
+            defining structure, content, and presentation.
+          </p>
+
+          <!-- Author -->
+          <div class="d-flex align-items-center gap-2 fw-bold">
+
+            <img
+              src="assets/images/image-avatar.webp"
+              class="author-img"
+              alt="A photo of Greg Hooper"
+            >
+
+            <p class="mb-0">
+              Greg Hooper
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+</body>
+<footer class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+  Coded by <a href="#">Your Name Here</a>.
+</footer>
+</html>

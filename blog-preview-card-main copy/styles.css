@@ -1,0 +1,38 @@
+.attribution { font-size: 0.6875rem; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body {
+      margin: 0;
+      background-color: hsl(47, 88%, 63%);
+      font-family: "Figtree", sans-serif;
+      font-size: 16px;
+    }
+    
+    .card {
+      max-width: 384px;
+      margin: auto;
+      box-shadow: 10px 10px 0 black;
+    }
+    
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+    
+    .badge {
+      color: hsl(0, 0%, 7%);
+      font-weight: 800;
+    }
+    
+    .card-title {
+      color: hsl(0, 0%, 7%);
+    }
+    
+    .card-text {
+      line-height: 1.5;
+    }
+    
+    .author-img {
+      width: 32px;
+      height: 32px;
+    }

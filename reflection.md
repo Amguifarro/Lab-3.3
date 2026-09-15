@@ -1,0 +1,5 @@
+One challenge I faced was learning how to replace the CSS I already wrote with Tailwind and Bootstrap classes. For the QR Code project, I had to figure out which Tailwind classes matched my original sizes, spacing, and alignment. For the Blog Preview Card, I had to learn which Bootstrap classes and components could replace my CSS while still keeping the design close to the original.
+
+Both made it easier to style directly in my HTML instead of writing as much CSS. Tailwind gave me classes for things like sizing, padding, margins, and flexbox. Bootstrap also gave me utility classes, but its card and grid components made it easier to organize and center the Blog Preview Card.
+
+I would use custom CSS when I need more control over a design or need to match specific sizes, colors, and spacing. While Tailwind and Bootstrap can make styling faster, I found that sometimes custom CSS is easier when I am trying to make the webpage look exactly like a specific design.
